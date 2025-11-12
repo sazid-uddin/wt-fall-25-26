@@ -14,3 +14,15 @@ console.log(s.length);
 
 var p1 = document.getElementById("para");
 p1.innerHTML = "Visit this link: <a href='https://google.com'>Google</a>";
+
+if (a == 5) {
+	console.log("ABC");
+} else {
+	console.log("XYZ");
+}
+
+(a < 5) ? console.log("ABC") : console.log("XYZ");
+
+function buttonClick() {
+	alert("Button was clicked");
+}
